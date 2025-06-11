@@ -1,0 +1,49 @@
+name: "Modding API Documentation Request"
+description: "Request new documentation or improvements to the Modding API docs."
+title: "[API: Documentation] "
+labels: ["Modding API: Documentation"]
+body:
+  - type: input
+    id: doc_topic
+    attributes:
+      label: Documentation Topic
+      description: "What part of the Modding API needs documentation or clarification?"
+      placeholder: "e.g., Event hooks, data structures, specific API methods"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_is_missing
+    attributes:
+      label: What documentation is missing or unclear?
+      description: "Describe what information is lacking, missing, or could be improved."
+      placeholder: "Be specific about what you couldn't find or understand."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_needed
+    attributes:
+      label: Why is this documentation needed?
+      description: "Explain how this addition or improvement would help modders."
+      placeholder: "Describe the benefit or use case."
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted_sources
+    attributes:
+      label: Have you checked existing documentation or sources?
+      description: "List any docs, wiki pages, or resources you already looked at."
+      placeholder: "List resources, or say 'Yes, but could not find the info.'"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context or examples
+      description: "Add code snippets, screenshots, or links that show where clarification is needed."
+      placeholder: "Paste examples, screenshots, or links here."
+    validations:
+      required: false

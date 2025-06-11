@@ -1,0 +1,49 @@
+name: "API Feature Request"
+description: "Suggest new Modding API features, hooks, or events."
+title: "[API: Feature] "
+labels: ["Modding API: Feature Request"]
+body:
+  - type: input
+    id: api_feature_title
+    attributes:
+      label: API Feature Title
+      description: "Brief summary (e.g., “Expose Conveyor System Events to Mods”)."
+      placeholder: "Summarize your API feature request."
+    validations:
+      required: true
+
+  - type: textarea
+    id: functionality
+    attributes:
+      label: What functionality do you want to see added or changed in the Modding API?
+      description: "Describe the new hook, event, or capability you’re requesting."
+      placeholder: "Describe the functionality you want to see."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_important
+    attributes:
+      label: Why is this important for modding?
+      description: "Explain what this would enable or how it would expand modding possibilities."
+      placeholder: "Explain the importance for modding."
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_limitations
+    attributes:
+      label: Current limitations or issues
+      description: "What currently prevents this? Are there any partial workarounds?"
+      placeholder: "Describe current limitations or partial workarounds."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional notes or use cases
+      description: "List any specific mods, scenarios, or examples that would benefit."
+      placeholder: "Add notes, examples, or use cases."
+    validations:
+      required: false

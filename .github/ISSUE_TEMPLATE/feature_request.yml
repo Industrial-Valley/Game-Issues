@@ -1,0 +1,49 @@
+name: "Feature Request"
+description: "Suggest a new feature or improvement for the game."
+title: "[Feature] "
+labels: ["Feature Request"]
+body:
+  - type: input
+    id: feature_title
+    attributes:
+      label: Feature Title
+      description: "Short and descriptive."
+      placeholder: "Summarize your feature in a few words."
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature_request
+    attributes:
+      label: What is your feature request?
+      description: "Describe the feature or improvement you’d like to see."
+      placeholder: "Describe the feature or improvement in detail."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_feature
+    attributes:
+      label: Why do you want this feature?
+      description: "Explain how this would improve the game or benefit players."
+      placeholder: "Describe the benefit or motivation."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Have you tried any alternatives or workarounds?
+      description: "If yes, explain. If not, just say 'No reasonable alternative.'"
+      placeholder: "Describe alternatives or say 'No reasonable alternative.'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: "Any other info, mockups, links, or examples?"
+      placeholder: "Add any other context here."
+    validations:
+      required: false
