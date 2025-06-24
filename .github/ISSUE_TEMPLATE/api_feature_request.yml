@@ -3,15 +3,6 @@ description: "Suggest new Modding API features, hooks, or events."
 title: "[API: Feature] "
 labels: ["Modding API: Feature Request"]
 body:
-  - type: input
-    id: api_feature_title
-    attributes:
-      label: API Feature Title
-      description: "Brief summary (e.g., “Expose Conveyor System Events to Mods”)."
-      placeholder: "Summarize your API feature request."
-    validations:
-      required: true
-
   - type: textarea
     id: functionality
     attributes:

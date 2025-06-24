@@ -3,15 +3,6 @@ description: "Request new documentation or improvements to the Modding API docs.
 title: "[API: Documentation] "
 labels: ["Modding API: Documentation"]
 body:
-  - type: input
-    id: doc_topic
-    attributes:
-      label: Documentation Topic
-      description: "What part of the Modding API needs documentation or clarification?"
-      placeholder: "e.g., Event hooks, data structures, specific API methods"
-    validations:
-      required: true
-
   - type: textarea
     id: what_is_missing
     attributes:

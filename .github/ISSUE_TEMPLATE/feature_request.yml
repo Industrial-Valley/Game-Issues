@@ -3,15 +3,6 @@ description: "Suggest a new feature or improvement for the game."
 title: "[Feature] "
 labels: ["Feature Request"]
 body:
-  - type: input
-    id: feature_title
-    attributes:
-      label: Feature Title
-      description: "Short and descriptive."
-      placeholder: "Summarize your feature in a few words."
-    validations:
-      required: true
-
   - type: textarea
     id: feature_request
     attributes:
